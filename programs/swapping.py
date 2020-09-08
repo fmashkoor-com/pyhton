@@ -36,7 +36,7 @@ b = 6
 print("-----------------------------")
 print("Using XOR")
 print("-----------------------------")
-a = a ^ b  # a = 11 -> 0b11 -> 2 bits
+a = a ^ b  # a = 3 -> 0b11 -> 2 bits
 b = a ^ b  # b = 5 -> 0b101 -> 3 bits
 a = a ^ b  # a = 6 -> 0b110 -> 3 bits
 print("The value of a is = " + str(a))
